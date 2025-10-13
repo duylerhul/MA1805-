@@ -1,7 +1,13 @@
-let house = 33
-
+let house = 33;
+var mouse = 66;
+let name = "duy";
+let hot = true;
+let tempp = 60.01;
+let mywidth = 640
 function setup() {
-  createCanvas(400, 400);
+  let myWidth = 640;
+  createCanvas(myWidth, Mywidth);
+let person = 55;
 }
 
 function draw() {
