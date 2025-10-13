@@ -1,17 +1,16 @@
-let house = 33;
-var mouse = 66;
-let name = "duy";
-let hot = true;
-let tempp = 60.01;
-let mywidth = 640
+let red;
+let blue;
+let greenl
+let mywidth = 220;
 function setup() {
-  let myWidth = 640;
+  let myWidth = 200;
   createCanvas(myWidth, Mywidth);
 let person = 55;
 }
 
 function draw() {
   background(220); 
-circle(200, 200, 50);
+  fill(255,0,0);
+circle(mywidth/20, 200, 50);
 
 }
