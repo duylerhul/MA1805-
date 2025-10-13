@@ -1,4 +1,4 @@
-let house = 33s
+let house = 33
 
 function setup() {
   createCanvas(400, 400);
