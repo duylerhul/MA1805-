@@ -34,7 +34,7 @@ if ( select == 0 ){
 {
   textSize(30);
   text (select, 60, 50)
-  text (words{5}, 100,100);
+  text (words(1), 100,100);
 }
 function mouseClicked9() {
   if (select == 0) {
