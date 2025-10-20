@@ -13,11 +13,6 @@ function draw() {
   circle( 100, 20, 40);
 }
 
-  //for(let i = 0; i<400; i=i+20)
-  // let r = random(30); 
-  // circle(i, i+300, r);
-  //}
-
 if ( select == 0 ){
   rgb = (255,0,0);
  } else {
