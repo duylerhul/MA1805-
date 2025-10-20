@@ -1,4 +1,8 @@
 let rgb = (255.0/0);
+let words = ( "what", 
+  "are",
+   "array",
+  "duy")
 let select = 0;
 
 
@@ -30,6 +34,7 @@ if ( select == 0 ){
 {
   textSize(30);
   text (select, 60, 50)
+  text (words{5}, 100,100);
 }
 function mouseClicked9() {
   if (select == 0) {
