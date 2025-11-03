@@ -1,47 +1,23 @@
-let rgb = (255.0/0);
-let words = ( "what", 
-  "are",
-   "array",
-  "duy")
-let select = 0;
-
+let theText = ["some", "text", "to", "display"];
+let word = theText[0];
+let i = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas (400,400);
+  frameRate(2);
 }
 
-function draw() {
+
+function draw(){
   background(220);
-  circle(30,30,50);
-  triangle(30,20,40,50,90,10);
-  circle( 100, 20, 40);
-}
 
-if ( select == 0 ){
-  rgb = (255,0,0);
- } else {
-  rgb = (0, 255, 0);
- }
+  textSize(32);
+  text(word, random(400), height/2);
 
-
-  fill (rgb)
-  let i=i;
-  while(i<400) {
-    let r = random(50);
-    curcle(i, i+300, r); 
-    i++;
+  word = theText[i]
+  i=i +1;
+  if (i>=theText.length){
+    i=0;
   }
-{
-  textSize(30);
-  text (select, 60, 50)
-  text (words(1), 100,100);
+  console.log(i)
 }
-function mouseClicked9() {
-  if (select == 0) {
-    slect = 1;
-  } else {
-select =0 ; 
-  }
-  return false; 
-}
-  
